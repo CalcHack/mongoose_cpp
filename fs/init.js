@@ -6,7 +6,7 @@ load('api_gpio.js');
 let PIN = ffi('int get_led_gpio_pin()')();  // Helper C function that returns a
 
 
- let hello1 = ffi('void helloworld()');
+ let hello1 = ffi('void testfunc()');
 
                                             // built-in LED GPIO
 GPIO.set_mode(PIN, GPIO.MODE_OUTPUT);

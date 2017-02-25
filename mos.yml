@@ -31,6 +31,7 @@ ffi_symbols:
   - mgos_set_timer
   - mgos_system_restart
   - mgos_usleep
+  - testfunc
 modules:
   - src: https://github.com/cesanta/mjs
 build_vars:

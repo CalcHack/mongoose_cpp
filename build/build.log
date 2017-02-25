@@ -1,0 +1,20 @@
+make: Warning: File '/app/build/objs/esp_gdb.c.d' has modification time 41271 s in the future
+  MKDIR /app/build/fw
+  GEN   /app/build/gen/symbols_dump.txt
+  GEN   /app/build/gen/build_info.c
+  GEN   /app/build/gen/symbols_dump.txt > /app/build/gen/ffi_exports.c
+  CC    /app/build/gen/build_info.c -> /app/build/objs/build_info.c.o
+  CC    /app/build/gen/ffi_exports.c -> /app/build/objs/ffi_exports.c.o
+  LD    /app/build/objs/mjs_hello.elf
+  FW    /app/build/objs/mjs_hello.elf -> /app/build/objs/mjs_hello.bin
+  CP    /app/build/objs/mjs_hello.bin -> /app/build/objs/fw_temp/0x11000.bin
+  GEN    /app/build/objs/fw_temp/manifest.json
+  ZIP    /app/build/fw/mjs_hello-esp8266-last.zip
+     Adding /app/build/objs/fw_temp/0x00000.bin
+     Adding /app/build/objs/fw_temp/0x01000.bin
+     Adding /app/build/objs/fw_temp/0x11000.bin
+     Adding /app/build/objs/fw_temp/0xdb000.bin
+     Adding /app/build/objs/fw_temp/0xfb000.bin
+     Adding /app/build/objs/fw_temp/esp_init_data_default.bin
+  Built mjs_hello/esp8266 version 1.0 (20170224-221636/master@780e66c3+)
+make: warning:  Clock skew detected.  Your build may be incomplete.

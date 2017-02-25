@@ -1,0 +1,122 @@
+{
+  "http": {
+    "enable": true, 
+    "listen_addr": "80", 
+    "ssl_cert": "", 
+    "ssl_key": "", 
+    "ssl_ca_cert": "", 
+    "upload_acl": "*", 
+    "hidden_files": "", 
+    "tunnel": {
+      "enable": false, 
+      "addr": "mongoose.link"
+    }
+  }, 
+  "rpc": {
+    "enable": true, 
+    "max_queue_size": 25, 
+    "mqtt": {
+      "enable": true, 
+      "is_trusted": true
+    }, 
+    "uart": {
+      "uart_no": 0, 
+      "baud_rate": 115200, 
+      "fc_enable": false, 
+      "wait_for_start_frame": true
+    }, 
+    "ws": {
+      "enable": true, 
+      "server_address": "", 
+      "reconnect_timeout_min": 10, 
+      "reconnect_timeout_max": 60, 
+      "ssl_server_name": "", 
+      "ssl_ca_file": "", 
+      "ssl_client_cert_file": ""
+    }
+  }, 
+  "dns_sd": {
+    "enable": false, 
+    "service_name": "mongoose-os-??????", 
+    "service_type": ""
+  }, 
+  "i2c": {
+    "enable": true, 
+    "sda_gpio": 12, 
+    "scl_gpio": 14, 
+    "debug": false
+  }, 
+  "mqtt": {
+    "server": "test.mosca.io:1883", 
+    "user": "", 
+    "pass": "", 
+    "reconnect_timeout_min": 10, 
+    "reconnect_timeout_max": 60, 
+    "ssl_cert": "", 
+    "ssl_key": "", 
+    "ssl_ca_cert": "", 
+    "ssl_cipher_suites": "", 
+    "ssl_psk_identity": "", 
+    "ssl_psk_key": "", 
+    "clean_session": true, 
+    "keep_alive": 60, 
+    "will_topic": "", 
+    "will_message": ""
+  }, 
+  "update": {
+    "url": "", 
+    "interval": 0, 
+    "timeout": 300, 
+    "commit_timeout": 0, 
+    "ssl_ca_file": "", 
+    "ssl_client_cert_file": "", 
+    "ssl_server_name": "", 
+    "enable_post": true
+  }, 
+  "wifi": {
+    "sta": {
+      "enable": false, 
+      "ssid": "", 
+      "pass": "", 
+      "ip": "", 
+      "netmask": "", 
+      "gw": ""
+    }, 
+    "ap": {
+      "enable": true, 
+      "ssid": "Mongoose_??????", 
+      "pass": "Mongoose", 
+      "hidden": false, 
+      "channel": 6, 
+      "max_connections": 10, 
+      "ip": "192.168.4.1", 
+      "netmask": "255.255.255.0", 
+      "gw": "192.168.4.1", 
+      "dhcp_start": "192.168.4.2", 
+      "dhcp_end": "192.168.4.100", 
+      "keep_enabled": true, 
+      "trigger_on_gpio": -1
+    }
+  }, 
+  "device": {
+    "id": "esp8266_??????", 
+    "password": ""
+  }, 
+  "debug": {
+    "mbedtls_level": 0, 
+    "level": 2, 
+    "stdout_uart": 0, 
+    "stderr_uart": 0, 
+    "enable_prompt": true, 
+    "factory_reset_gpio": -1
+  }, 
+  "sys": {
+    "atca": {
+      "enable": false, 
+      "i2c_addr": 96, 
+      "ecdh_slots_mask": 12
+    }, 
+    "wdt_timeout": 30
+  }, 
+  "conf_acl": "*"
+}

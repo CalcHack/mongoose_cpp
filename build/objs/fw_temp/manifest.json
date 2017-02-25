@@ -1,0 +1,51 @@
+{
+  "build_id": "20170224-221636/master@780e66c3+", 
+  "build_timestamp": "2017-02-24T22:16:36Z", 
+  "name": "mjs_hello", 
+  "parts": {
+    "boot": {
+      "addr": 0, 
+      "cs_sha1": "f5caa2508b0b500e8d93181dbe19b79e774eaacb", 
+      "size": 2544, 
+      "src": "0x00000.bin"
+    }, 
+    "boot_cfg": {
+      "addr": 4096, 
+      "cs_sha1": "e0c66649d1434eca3435033a32634cb90cef0f31", 
+      "size": 4096, 
+      "src": "0x01000.bin"
+    }, 
+    "fs": {
+      "addr": 897024, 
+      "cs_sha1": "32a7f09d1f29ded2f0cb543c68d63b03513d7c24", 
+      "fs_block_size": 4096, 
+      "fs_erase_size": 4096, 
+      "fs_page_size": 256, 
+      "fs_size": 131072, 
+      "size": 131072, 
+      "src": "0xdb000.bin", 
+      "type": "fs"
+    }, 
+    "fw": {
+      "addr": 69632, 
+      "cs_sha1": "cc523ff40258332e3d120b8ff49ab371d764dccf", 
+      "size": 598224, 
+      "src": "0x11000.bin"
+    }, 
+    "rf_cal_data": {
+      "addr": 1028096, 
+      "cs_sha1": "e0c66649d1434eca3435033a32634cb90cef0f31", 
+      "size": 4096, 
+      "src": "0xfb000.bin"
+    }, 
+    "sys_params": {
+      "addr": 4177920, 
+      "cs_sha1": "cf4d04ec6ebceefe5210b06464f0522f2f44d7c0", 
+      "size": 128, 
+      "src": "esp_init_data_default.bin", 
+      "type": "sys_params"
+    }
+  }, 
+  "platform": "esp8266", 
+  "version": "1.0"
+}
